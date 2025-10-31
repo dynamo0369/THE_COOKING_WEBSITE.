@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cooking Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="site-title-container">
+            <h1><a href="#" data-target="home">The Cooking Guide</a></h1>
+        </div>
+        <div class="header-content">
+            <span class="finder-title">FIND THE PERFECT RECIPE:</span>
+            <form class="finder-search-form" id="finder-search">
+                <input type="text" id="finder-input" placeholder="search recipes...">
+                <button type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <nav class="recipe-nav">
+                <ul>
+                    <li><a href="#" data-target="category-Starter" title="Dinner"><i class="fa-solid fa-utensils"></i><span>DINNER</span></a></li>
+                    <li><a href="#" data-target="page-global" title="Global"><i class="fa-solid fa-globe"></i><span>GLOBAL</span></a></li>
+                    <li><a href="#" data-target="category-Indian" title="Indian"><i class="fa-solid fa-pepper-hot"></i><span>INDIAN</span></a></li>
+                    <li><a href="#" data-target="page-student" title="Student"><i class="fa-solid fa-graduation-cap"></i><span>STUDENT</span></a></li>
+                    <li><a href="#" data-target="page-desi-party" title="Desi & Party"><i class="fa-solid fa-drumstick-bite"></i><span>DESI PARTY</span></a></li>
+                    <li><a href="#" data-target="category-Dessert" title="Desserts"><i class="fa-solid fa-cake-candles"></i><span>DESSERTS</span></a></li>
+                    <li><a href="#" data-target="category-Cocktail" title="Drinks"><i class="fa-solid fa-martini-glass"></i><span>DRINKS</span></a></li>
+                    <li>
+                        <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                            <i class="fa-solid fa-moon"></i>
+                            <span>MODE</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="page-container"></main>
+
+    <footer>
+        <p>© 2025 The Cooking Guide. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
